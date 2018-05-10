@@ -1,5 +1,6 @@
 class Verb:
     def __init__(self, lemma):
+        self.tense = {}
         self.frequency = 1
         self.adverbs = 0
         self.past = 0
